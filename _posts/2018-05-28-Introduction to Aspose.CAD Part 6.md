@@ -19,8 +19,7 @@ title: Introduction to Aspose.CAD, Part 6
 
 ##Font substitution
 Fonts for text in DWG files are specified in style table objects, represented in Aspose.CAD by a <a href="https://apireference.aspose.com/net/cad/aspose.cad.fileformats.cad.cadtables/cadstyletableobject/">CadStyleTableObject</a> class. Collection of these objects are present in <a href="https://apireference.aspose.com/net/cad/aspose.cad.fileformats.cad/cadimage/properties/styles">Styles</a> property of <a href="https://apireference.aspose.com/net/cad/aspose.cad.fileformats.cad/cadimage">CadImage</a> instance. Styles have names, which can be used to differentiate them. There's an example on how to change font used by a class with particular name:
-
-````csharp
+``csharp
 using (Aspose.CAD.FileFormats.Cad.CadImage cadImage = (Aspose.CAD.FileFormats.Cad.CadImage)Aspose.CAD.Image.Load(sourceFilePath))
 {
     // Iterate over the items of CadStyleDictionary
@@ -33,7 +32,7 @@ using (Aspose.CAD.FileFormats.Cad.CadImage cadImage = (Aspose.CAD.FileFormats.Ca
         }
     }
 }
-````
+``
 
 
 For now, that's all, stay tuned!
